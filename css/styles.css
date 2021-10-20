@@ -1,0 +1,8 @@
+.definition {
+  display: none;
+}
+
+.card-name:hover{
+  background-color: yellow;
+  cursor:pointer;
+}
