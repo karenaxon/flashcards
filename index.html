@@ -14,55 +14,195 @@
       <div class="jumbotron">
         <i class="fab fa-github fa-5x">
         </i>
-        <h2 class="display-4">Flashcard site for Learning JS & jQuery
+        <h2 class="display-4">Flashcards for Learning JS & jQuery
         </h2>
         <p class="lead">Click on a term or concept to see the definition:
         </p>
         <hr class="my-4">
       </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-3">
-          <div id="js" class="jumbotron text-center card-name">
-            <div id="js-name" class="text-primary rounded-pill border border-primary">
-              <h2>JavaScript</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <div id="js" class="jumbotron text-center card-name">
+              <div id="js-name" class="text-primary rounded-pill border border-primary">
+                <h2>JavaScript</h2>
+              </div>
+              <div id="js-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>An object-oriented computer programming language commonly used to create interactive effects within web browsers.
+                </h4>
+              </div>
             </div>
-            <div id="js-defined" class="definition border border-success text-muted py-2 px-2">
-              <h4>An object-oriented computer programming language commonly used to create interactive effects within web browsers.
-              </h4>
+          </div>
+          <div class="col-3">
+            <div id="operators" class="jumbotron text-center card-name">
+              <div id="operators-name" class="text-primary rounded-pill border border-primary">
+                <h2>Operators</h2>
+              </div>
+              <div id="operators-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Arithmetic operators perform arithmetic on numbers (literals or variables). These include: + - * / 
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="variables" class="jumbotron text-center card-name">
+              <div id="variables-name" class="text-primary rounded-pill border border-primary">
+                <h2>Variables</h2>
+              </div>
+              <div id="variables-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Variables are containers for storing data (values).
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="varNaming" class="jumbotron text-center card-name">
+              <div id="varNaming-name" class="text-primary rounded-pill border border-primary">
+                <h2>Naming</h2>
+              </div>
+              <div id="varNaming-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Use camelCase for identifier names of variables and functions.
+                </h4>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div id="operators" class="jumbotron text-center card-name">
-            <div id="operators-name" class="text-primary rounded-pill border border-primary">
-              <h2>Operators</h2>
+        <div class="row pt-4">
+          <div class="col-3">
+            <div id="function" class="jumbotron text-center card-name">
+              <div id="function-name" class="text-primary rounded-pill border border-primary">
+                <h2>Functions</h2>
+              </div>
+              <div id="function-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>A function is a block of code designed to perform a particular task.
+                </h4>
+              </div>
             </div>
-            <div id="operators-defined" class="definition border border-success text-muted py-2 px-2">
-              <h4>Arithmetic operators perform arithmetic on numbers (literals or variables). These include: + - * / 
-              </h4>
+          </div>
+          <div class="col-3">
+            <div id="methods" class="jumbotron text-center card-name">
+              <div id="methods-name" class="text-primary rounded-pill border border-primary">
+                <h2>Methods</h2>
+              </div>
+              <div id="methods-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Methods are actions that can be performed on objects.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="parameters" class="jumbotron text-center card-name">
+              <div id="parameters-name" class="text-primary rounded-pill border border-primary">
+                <h2>Parameters</h2>
+              </div>
+              <div id="parameters-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Parameters are the names listed in the function definition.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="arguments" class="jumbotron text-center card-name">
+              <div id="arguments-name" class="text-primary rounded-pill border border-primary">
+                <h2>Arguments</h2>
+              </div>
+              <div id="arguments-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Arguments are the real values passed to (and received by) the function.
+                </h4>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div id="variables" class="jumbotron text-center card-name">
-            <div id="variables-name" class="text-primary rounded-pill border border-primary">
-              <h2>Variables</h2>
-            </div>
-            <div id="variables-defined" class="definition border border-success text-muted py-2 px-2">
-              <h4>Variables are containers for storing data (values).
-              </h4>
+        <div class="row pt-4">
+          <div class="col-3">
+            <div id="return" class="jumbotron text-center card-name">
+              <div id="return-name" class="text-primary rounded-pill border border-primary">
+                <h2>Return</h2>
+              </div>
+              <div id="return-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>The return statement stops the execution of a function and returns a value from that function.
+                </h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div id="varNaming" class="jumbotron text-center card-name">
-            <div id="varNaming-name" class="text-primary rounded-pill border border-primary">
-              <h2>Naming conventions</h2>
+          <div class="col-3">
+            <div id="chaining" class="jumbotron text-center card-name">
+              <div id="chaining-name" class="text-primary rounded-pill border border-primary">
+                <h2>Chaining</h2>
+              </div>
+              <div id="chaining-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>It is a mechanism of calling a method on another method of the same object.
+                </h4>
+              </div>
             </div>
-            <div id="varNaming-defined" class="definition border border-success text-muted py-2 px-2">
-              <h4>Use camelCase for identifier names of variables and functions.
-              </h4>
+          </div>
+          <div class="col-3">
+            <div id="strings" class="jumbotron text-center card-name">
+              <div id="strings-name" class="text-primary rounded-pill border border-primary">
+                <h2>Strings</h2>
+              </div>
+              <div id="strings-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Characters inside single or double quotes.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="booleans" class="jumbotron text-center card-name">
+              <div id="booleans-name" class="text-primary rounded-pill border border-primary">
+                <h2>Booleans</h2>
+              </div>
+              <div id="booleans-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>A boolean represents one of two values: true or false.
+                </h4>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row pt-4">
+          <div class="col-3">
+            <div id="undefined" class="jumbotron text-center card-name">
+              <div id="undefined-name" class="text-primary rounded-pill border border-primary">
+                <h2>Undefined</h2>
+              </div>
+              <div id="undefined-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>The undefined property indicates that a variable has not been assigned a value or not declared at all.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="nan" class="jumbotron text-center card-name">
+              <div id="nan-name" class="text-primary rounded-pill border border-primary">
+                <h2>NAN</h2>
+              </div>
+              <div id="nan-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>Not-a-Number value
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="alert" class="jumbotron text-center card-name">
+              <div id="alert-name" class="text-primary rounded-pill border border-primary">
+                <h2>Alert</h2>
+              </div>
+              <div id="alert-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>The alert() method displays an alert box with a specified message and an OK button.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="concat" class="jumbotron text-center card-name">
+              <div id="concat-name" class="text-primary rounded-pill border border-primary">
+                <h2>Concatenation</h2>
+              </div>
+              <div id="concat-defined" class="definition border border-success text-muted py-2 px-2">
+                <h4>The concat() method joins two or more strings.
+                </h4>
+              </div>
             </div>
           </div>
         </div>
