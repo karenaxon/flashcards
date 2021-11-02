@@ -2,10 +2,6 @@
 #### By Karen Axon
 Website that aids in learning Javascript and jQuery. Click on a term or concept to see the definition.
 
-<p align="center">
-<img src="../images/website-image.jpg" height="500px">
-</p>
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 ## Technologies Used
